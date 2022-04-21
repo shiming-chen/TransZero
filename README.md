@@ -1,9 +1,7 @@
 # TransZero [[arXiv]](https://arxiv.org/pdf/2112.01683.pdf)
 
 
-This repository contains the testing code for the paper  "***TransZero: Attribute-guided Transformer for Zero-Shot Learning***" accepted to AAAI 2022. 
-~~We will release all codes of this work later.~~
-We have released the training codes of this work in [main branch](https://github.com/HHHZM/TransZero_train).
+This repository contains the testing code for the paper  "***TransZero: Attribute-guided Transformer for Zero-Shot Learning***" accepted to AAAI 2022. We have released the training codes of this work in [train branch](https://github.com/shiming-chen/TransZero).
 
 ![](figs/pipeline.png)
 
