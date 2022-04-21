@@ -1,7 +1,7 @@
 # TransZero [[arXiv]](https://arxiv.org/pdf/2112.01683.pdf)
 
 
-This repository contains the training and testing codes for the paper  "***TransZero: Attribute-guided Transformer for Zero-Shot Learning***" accepted to AAAI 2022. 
+This repository contains the training and [testing](https://github.com/shiming-chen/TransZero/tree/test) code for the paper  "***TransZero: Attribute-guided Transformer for Zero-Shot Learning***" accepted to AAAI 2022. 
 
 ![](figs/pipeline.png)
 
@@ -51,7 +51,7 @@ $ python train_awa2.py  # AWA2
 
 ## Results
 
-We also provide trained models ([Google Drive](https://drive.google.com/drive/folders/1WK9pm2eX2Rl4rWqXqe_EZiAM8wWB8yqG?usp=sharing)) on three datasets. You can download these `.pth` files and validate the results in our paper. Please refer to the [test branch](https://github.com/HHHZM/TransZero_train/tree/test) for testing codes and usage.
+We also provide trained models ([Google Drive](https://drive.google.com/drive/folders/1WK9pm2eX2Rl4rWqXqe_EZiAM8wWB8yqG?usp=sharing)) on three datasets. You can download these `.pth` files and validate the results in our paper. Please refer to the [test branch](https://github.com/shiming-chen/TransZero/tree/test) for testing codes and usage.
 Following table shows the results of our released models using various evaluation protocols on three datasets, both in the CZSL and GZSL settings:
 
 | Dataset | Acc(CZSL) | U(GZSL) | S(GZSL) | H(GZSL) |
