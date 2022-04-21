@@ -1,0 +1,46 @@
+dataset:
+  value: AWA2
+num_class:
+  value: 50
+num_attribute:
+  value: 85
+img_size:
+  value: 448
+resnet_region:
+  value: 196
+dim_f:
+  value: 2048
+dim_v:
+  value: 300
+device:
+  value: cuda:0
+batch_size:
+  value: 50
+epochs:
+  value: 200
+use_unzip:
+  value: True
+random_seed:
+  value: 9093
+lambda_:
+  value: 1.2
+lambda_reg:
+  value: 0.00005
+normalize_V:
+  value: True
+tf_SAtt:
+  value: True
+tf_ec_layer:
+  value: 1
+tf_dc_layer:
+  value: 1
+tf_heads:
+  value: 1
+tf_common_dim:
+  value: 512
+tf_aux_embed:
+  value: True
+tf_dim_feedforward:
+  value: 512
+tf_dropout:
+  value: 0.3

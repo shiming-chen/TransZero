@@ -1,0 +1,46 @@
+dataset:
+  value: SUN
+num_class:
+  value: 717
+num_attribute:
+  value: 102
+img_size:
+  value: 448
+resnet_region:
+  value: 196
+dim_f:
+  value: 2048
+dim_v:
+  value: 300
+device:
+  value: cuda:0
+batch_size:
+  value: 50
+epochs:
+  value: 400
+use_unzip:
+  value: True
+random_seed:
+  value: 6
+lambda_:
+  value: 0.25
+lambda_reg:
+  value: 0.001
+normalize_V:
+  value: False
+tf_SAtt:
+  value: False
+tf_ec_layer:
+  value: 1
+tf_dc_layer:
+  value: 1
+tf_heads:
+  value: 1
+tf_common_dim:
+  value: 128
+tf_aux_embed:
+  value: False
+tf_dim_feedforward:
+  value: 2048
+tf_dropout:
+  value: 0.3
